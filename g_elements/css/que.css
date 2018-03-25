@@ -1,0 +1,93 @@
+#text p{
+    font-size: 0.8em;
+}
+.answer{
+    padding:5px 5px 5px 10px;
+    background:#FFFFFF;
+    -webkit-box-shadow: 0 0 2px 0 #999;
+    box-shadow: 0 0 2px 0 #999;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border:solid 1px #999;
+    margin:0 0 5px 0 ;
+    overflow: auto;
+    position: relative;
+}
+.dateNews{
+    font-size: 0.8em;
+    color: #009900;
+    position: absolute;
+    right:5px;
+    bottom: 5px;
+}
+textarea{
+    border-color: #999;
+}
+.form_que{
+    clear: left;
+    display: block;
+    font-size: 0.8em;
+}
+.navig{
+    border-top: 1px #CCCCCC solid;
+    text-align: center;
+    clear: both;
+}
+.navig a, .navig span{
+    margin:0.2em;
+}
+.newsText{
+    font-size: 0.8em;
+}
+.newsPost{
+    padding:5px 5px 5px 10px;
+    background:#FFFFFF;
+    -webkit-box-shadow: 0 0 2px 0 #999;
+    box-shadow: 0 0 2px 0 #999;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border:solid 1px #999;
+    margin:0 0 5px 0 ;
+    overflow: auto;
+    position: relative;
+    clear: left;
+}
+.dateNews{
+    font-size: 0.8em;
+    color: #009900;
+    position: absolute;
+    right:5px;
+    bottom: 5px;
+}
+.newsText img{
+    float:left;
+    margin: 5px 10px 5px 0;
+}
+.newsText p{
+    font-size: 0.8em;
+}
+.but_search_que{
+    font-size: 0.67em;
+    float: right;
+    width: 25%;
+   
+}
+#search_text{
+    width: 70%;
+    float: left;
+}
+.searchForm{
+    margin: 10px 0;
+    overflow: auto;
+    width: 100%;
+}
+.removeQ{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #CCC;
+    cursor: pointer;
+}
+.removeQ:hover{
+    color: red;
+}

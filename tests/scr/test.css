@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.text_que{
+	padding:5px;
+	font-weight:600;
+}
+.img_test{
+	margin:3px 1%;
+	width:98%;
+	float:none;
+}
+.img_test, .text_ans, .test_false, .test_true, .test_now, .comment{
+	border:1px solid #999999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.text_ans{
+	margin: 5px 3px;
+	padding:8px;
+	cursor:pointer;
+}
+.text_ans:hover{
+	border-color:#0066CC;
+}
+.ans_right{
+	background:#00FF66;
+}
+.ans_error{
+	background:#FF888B;
+}
+.test_false, .test_true, .test_now{
+	padding:0.1em 0.2em;
+	margin:2px;
+	float:left;
+	background:#FF3333;
+}
+.test_now{
+	font-weight:bolder;
+}
+.test_true{
+	background:#009900;
+}
+.test_now{
+ background:#FFFFFF;
+}
+#test{
+	font-size:0.8em;
+	overflow:none;
+	clear:both;
+}
+.comment{
+	margin:10px;
+	padding:5px;
+	background:#DFFFDD;
+}
+#info{
+margin:0.06em 0.15em;
+	
+}
+#stop_test{
+	margin:10px;
+}

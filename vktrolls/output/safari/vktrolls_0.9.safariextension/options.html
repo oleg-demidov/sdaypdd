@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="scr/jquery.js"></script>
+        <script type="text/javascript" src="scr/jquery.querystring.js"></script>
+        <script type="text/javascript" src="scr/jquery.ajaxupload.js"></script>
+        <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+        <link href="scr/styles.css" rel="stylesheet" type="text/css" />
+        <title>Список</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scr/trolls.js"></script>
+        <script src="scr/tinymce/tinymce.min.js"></script>
+        
+        
+
+    </head>
+    <body>
+            <div  id="addcat" class="popup">
+                <div class="haddform">Добавить категорию<div>&#xe812;</div></div>
+                <div><table border="0" >
+                        <tr><td>Картинка:</td><td><div id="promptzone"></div></td></tr>
+                    <tr><td>Имя:</td><td><input id="catname" type="text" value=""></td></tr>
+                    <tr><td colspan="2"><textarea id="cattext"></textarea></td></tr>
+                    </table>
+                    <div id="addcbut" class="button icon" >Сохранить</div>
+                </div>
+                
+            </div>
+            <div  id="cats" class="popup">
+                <div class="haddform">Категории<div>&#xe812;</div></div>
+                <div>
+                    <select id="catsselect"></select>
+                        <div id="redcatbut" class="button fontello" >&#xe81f;</div>
+                        <div id="addcatbut" class="button fontello" >&#xe804;</div>
+                        <div id="remcatbut" class="button fontello" >&#xe810;</div>
+                </div>
+                <div id="comm_cat">
+                </div>
+                
+            </div>
+            <div id="addform"  style="display: none;" class="popup">
+                <div class="haddform">Добавить в список<div>&#xe812;</div></div>
+                <div class="avatar"></div>
+                <div class="agent_info">
+                    
+                    <div class="user_name"></div>
+                    <div>
+                    </div>
+                </div>
+                <div id="comm_cat">
+                    <table cellpadding="0"  cellspacing="0" >
+                        <tr><td>Отметить как: </td>
+                        <td><select id="catselect"><option value=""></option></select></td>
+                        </tr>
+                        <tr><td>Комментарий: </td>
+                        <td><textarea id="commadd"></textarea></td></tr>
+                    </table>
+                    <div id="addtolist" class="button icon" >Добавить</div>
+                </div>
+                
+            </div>
+        <div id="content">
+            <div id="userinfo">
+                <img id="ava"/>
+                <div id="fio"></div>
+                <div id="scopes"></div>
+                <input type="button" class="button" id="exit" value="Выход"/>
+            </div>
+            <div id="menu">
+                <input id="pole" type="text" value="" />
+                <div id="butt" class="button icon" >Поиск </div>
+            </div>
+            <div id="spiski" style="display: none;">
+                <a href="#" id="ablack">Пользователи<span></span></a>
+                <a href="#" id="agblack">Группы<span></span></a>
+                <a href="#" id="agrey">Серый список<span></span></a>
+                <a href="#" id="abasket"><span></span></a>
+                <a href="#" id="acats"><span></span></a>                
+                <div class="load">&#xe800;</div>
+            </div>
+            <div id="notif" style="display: none;">
+            </div>
+            <div id="results">
+                
+            </div>
+        </div>
+        <div style="display: none;" id="shablon" class="popup">
+                <div class="avatar"><img /></div>
+                <div class="agent_info">
+                    <div class="user_name"></div>
+                    <div>Добавил: <span class="adm_name"></span></div>
+                    <div>Ссылки: <span class="markers"></span></div>
+                </div>
+                <div class="agent_cat"><a></a></div>
+                <div class="close"></div>
+                <div class="more"><a href="#" class="morebut1">Подробнее</a></div>
+                <div class="desc"></div>
+        </div>
+        <div style="display: none;" id="shablon2">
+                <div class="avatar"><img /></div>
+                <div class="agent_info">
+                    <div class="user_name"></div>
+                    <div class="marker_cat">Отметил как: <a>q</a></div>
+                    <div class="reply">Комментарий: </div>
+                </div>
+                <div class="comment"></div>
+        </div>
+        <div style="display: none;" id="shablon3">
+        <table  cellpadding="5" cellspacing="0" width="100%">
+            <tr style="background: #eee;">
+                <td></td>
+                <td></td>
+                <td>Отметил как</td>
+                <td>Ссылка на пост</td>
+                <td>Комментарий</td>
+                <td></td>
+            </tr>
+            <tr id="mShablon">
+                <td class="avatartd"></td>
+                <td class="user_name"></td>
+                <td class="marker_cat"><a>q</a></td>
+                <td class="reply"></td>
+                <td class="comment"></td>
+                <td class="delmarker" ><a href="#" class="fontello">&#xe812;</a></td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>

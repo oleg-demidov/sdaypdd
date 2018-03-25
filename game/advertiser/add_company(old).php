@@ -1,0 +1,66 @@
+<?	
+include('add_banner_func.php');
+if(isset($_GET['step'])){
+	if($_GET['step']==1){
+		if(check_files()){
+			$id=rand(1,10000000);
+			if($dSpr=load_sprite($id)){
+				include('../elements/form_company2.php');
+			}else{
+				include('../elements/form_company1.php');
+			}
+		}else{
+			include('../elements/form_company1.php');
+		}
+	}elseif($_GET['step']==2){
+		if(check_form()){
+			$data=$_POST;
+			$data['id_user']=$_SESSION['id'];
+			$data['id']=$_GET['id'];
+			$data['delay']=$_GET['delay'];
+			$rez=$bd->insert_on_update('companies',$data);
+			if($rez){
+				$suc="Настройки сохранены";
+				include('../elements/suc.php');
+			}
+			include('company.php');
+		}else
+			include('../elements/form_company2.php');
+	}
+}else include('../elements/form_company1.php');
+/*if($_POST){
+		$data=$_POST;
+		$need=array(
+			"name"=>"Название",
+			"header"=>"Заголовок",
+			"mess"=>"Сообщение",
+			"site"=>"Ссылка",
+			//"days"=>"Время"
+		);
+		
+		if(isset($_GET['id'])){
+			print_r($data);
+			$rez=$bd->update('companies',$data,array("id"=>$_GET['id']));
+		}else{
+			$data['id_user']=$_SESSION['id'];
+			$data['id']=rand(1,1000000); 
+			if($dSpr=load_sprite($data['id'],$need)){
+				$data+=$dSpr;
+				$rez=$bd->insert('companies',$data);
+			}
+			else include('../elements/form_company.php');
+		}
+		if(isset($rez)){
+			$suc="Настройки сохранены";
+			include('../elements/suc.php');
+		}
+		if($error)include("../elements/errors.php");
+		include('../advertiser/company.php');
+	}else{
+		if(isset($_GET['id'])){
+			$data=$bd->select('*','companies',array("id"=>$_GET['id']));
+			$data=$data[0];
+		}
+		include('../elements/form_company.php');
+	}*/
+?>

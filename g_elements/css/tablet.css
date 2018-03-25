@@ -1,0 +1,24 @@
+.header{
+  width:100%;
+}
+body
+{
+  font-size: 1.5em;
+}
+.menu{
+  width:100%;
+}
+ul, li{
+	float:left;
+}
+.content{
+  margin: 3.7em 1% 0 1%;
+}
+.breadcrumbs{
+	background:rgba(255,255,255,0.9);
+	width:100%;
+	z-index:10000;
+}
+.panel_class{
+	width:80%;
+}

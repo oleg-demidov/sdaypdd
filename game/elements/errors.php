@@ -1,0 +1,1 @@
+<div class="error"><? echo content('error').' : '.$error;?></div>

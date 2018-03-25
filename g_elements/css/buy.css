@@ -1,0 +1,40 @@
+/* CSS Document */
+#butt #minuss, #butt #pluss{
+	padding:0.23em 0.6em;
+	margin:0.1em;
+	line-height:20px;
+	float:left;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	font-size:0.8em;
+}
+#butt{
+	float:left;
+}
+#days{
+	width:3em;
+	float:left;
+}
+.form_buy td .button, .form_buy td{
+	font-size:0.8em;
+}
+#eco{
+	color:#006600;
+}
+.form_buy h3{
+	text-align:center;
+}
+.predlozh{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px #008000;
+    border-radius:5px;
+}
+.predlozh :first-child{
+    color: #008000;
+}
+.predlozh div{
+    margin: 5px;
+}

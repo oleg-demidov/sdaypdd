@@ -1,0 +1,35 @@
+{
+    "framework_package_id": "dev", 
+    "content_scripts": [
+        "content.js"
+    ], 
+    "browser_button": {
+        "caption": "Vktrolls", 
+        "tooltipText": "Vktrolls", 
+        "popup": {
+            "url": "popup.html", 
+            "width": 450, 
+            "height": 270
+        }, 
+        "icon": "icons/button.png"
+    }, 
+    "urlapp": "http://vktrolls.sdaypdd.ru", 
+    "creator": "Vktrolls", 
+    "description": "Extension description", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "app_id": "5300766", 
+    "background_scripts": [
+        "scr/jquery.js", 
+        "scr/jquery.querystring.js", 
+        "main.js"
+    ], 
+    "homepage_url": "http://vk.com/club114913166", 
+    "version": "0.9", 
+    "options_page": "options.html", 
+    "update_path_url": "http://vktrolls.sdaypdd.ru/output/", 
+    "catImglimit": 50, 
+    "package_id": "kango-c345a1d6-7e5f-43df-89f6-1bf8646ad460", 
+    "update_url": "http://vktrolls.sdaypdd.ru/output/update_firefox.xml", 
+    "id": "{C345A1D6-7E5F-43DF-89F6-1BF8646AD460}", 
+    "name": "Vktrolls"
+}

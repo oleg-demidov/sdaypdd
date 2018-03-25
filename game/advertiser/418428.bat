@@ -1,0 +1,1 @@
+nconvert -out bmp 418428.jpeg

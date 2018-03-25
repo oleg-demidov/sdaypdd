@@ -1,0 +1,14 @@
+.popupdiv{
+    width: 200px;
+    height: 100px;
+    border: 1px solid lightsteelblue;
+    padding: 5px;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 1px 15px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 1px 15px 0px rgba(50, 50, 50, 0.5);
+    position: absolute;
+}
+
+
+
+

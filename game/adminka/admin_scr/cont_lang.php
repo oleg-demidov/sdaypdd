@@ -1,0 +1,10 @@
+<?
+if(isset($_GET['l'])&&!isset($_POST['value'])){
+	$data=$bd->select('*','content_'.$_GET['l'],array('id'=>$_GET['id']));
+	include('../elements/form_cont_lang.php');
+}else{
+	if(isset($_POST['value']))
+		$bd->insert_on_update('content_'.$_GET['l'],array('id'=>$_GET['id'],'value'=>$_POST['value']));
+	include('content_keys.php');
+}
+?>

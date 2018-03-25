@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "cursor/cursord"
+	"$envmap" "env_cubemap"
+	
+}

@@ -1,0 +1,16 @@
+<?
+$data=$bd->select('*','companies',array('id'=>$_GET['id']));
+$data=$data[0];
+$id=$_GET['id'];
+if(isset($_POST['header'])){
+	$data=$_POST;
+	if($data['delay'])$data['delay']=1000/$data['delay'];
+	$rez=$bd->update('companies',$data,array('id'=>$id));
+	if($rez){
+		$suc=content('settings_saved');
+		include('../elements/suc.php');
+		include('company.php');
+	}
+}else
+	include('../elements/form_company_sett.php');
+?>

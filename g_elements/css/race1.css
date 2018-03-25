@@ -1,0 +1,118 @@
+/* CSS Document */
+
+#head_img{
+	background-image:url(../images/header2.png);
+}
+.race{
+	clear:left;
+	width: 98%;
+	height: 236px;
+	margin:0.2em 1%;
+	background-image:url(../../race/images/race.jpg);
+	position:relative;
+	padding:8px 0;
+}
+.racer{
+	position:relative;
+	clear:left;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	/*border:1px solid #fff;*/
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.61);
+	float:left;
+	background-color:#ddd;
+	overflow:none;
+	margin:2px;
+	padding:2px;
+}
+.racer img{
+	
+}
+.racer div{
+	position:absolute;
+	top:3px;
+	font-size:10px;
+	left:3px;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+.car{
+ float:left;
+ 	margin:9px 0;
+}
+.racer div{
+	clear:left;
+}
+.racer img{
+	float:left;
+}
+#begin{
+	float:left;
+	margin:14px 0 0 14px;
+	clear:left;
+}
+.choise_car{
+	display:none;
+	position:absolute;
+	left:150px;
+	bottom:30px;
+}
+.choise_car div{
+	color:#000;
+	font-size:20px;
+	margin:5px;
+}
+.choise_car img{
+	border: solid  1px rgba(200,200,200,0);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	transition:all 300ms ease-in-out;
+	padding:7px 1px;
+}
+.choise_car img:hover{
+	border-color:rgba(255,255,255,0.8);
+}
+.rotate90{
+	cursor:pointer;
+	float:left;
+	margin:30px -10px 0 -10px;;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+h4{
+	margin: 5px 30px;
+	color:#FFFFFF;
+	text-align:right;
+}
+.countdown{
+	width:150px;
+	position:absolute;
+	top:50px;
+	right:50px;
+}
+.win_sign{
+	position:absolute;
+	background-repeat:no-repeat;
+	width:200px;
+	height:50px;
+	top:10px;
+	right:-210px;
+}
+#sign1{
+	background-image:url(../../race/images/win1.png)
+}
+#sign2{
+	background-image:url(../../race/images/win2.png)
+}
+#sign3{
+	background-image:url(../../race/images/win3.png)
+}
+#sign4{
+	background:#000000;
+	background-image:url(../../race/images/win4.png)
+}

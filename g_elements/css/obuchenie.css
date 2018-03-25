@@ -1,0 +1,172 @@
+/* CSS Document */
+.obuch_menu{
+	width:400px;
+	max-height:60px;
+	overflow:auto;
+	padding-top:8px;
+}
+.obuch_menu div{
+	
+	font-size:0.8em;
+	padding:0 0.2em;
+	float:left;
+	z-index:-10;
+}
+.obuch_menu a{
+	color:#0059A0;
+	text-decoration:none;
+	display:block;
+	padding:0.4em 0.5em;
+	background:#F6F6F6;
+	border:#CCCCCC 1px solid;
+	border-bottom:none;
+}
+#obuch_select_menu{
+	background:#FFFFFF;
+	box-shadow: 2px -2px 3px 0 #ccc;
+	margin:0 0.2em 0 0;
+}
+#obuch_select_menu a{
+	text-decoration:none;
+	background:#fff;
+	border:#fff 1px solid;
+	
+}
+#obuch_select_menu a{
+	color:#444;
+}
+#obuchenie_cont{
+	clear:both;
+	background:#FFFFFF;
+	margin:0 0 0 0;
+	overflow:auto;
+}
+#close{
+	float:right;
+	font-size:0.6em;
+	padding:0.5em 0 0.3em 0; 
+}
+.bilet_div{
+	text-align:center;
+	font-size:0.5em;
+	float:left;
+	padding:4px;
+	box-shadow: 0 0 4px 0 #999;
+	overflow:auto;
+	background:#FFFFFF;
+	margin:10px;
+	width:9em;
+}
+.bilet_div .button{
+	width:80%;
+	margin:17px auto 5px auto;
+}
+.nobil{
+	color:#00569D;
+	font-size:1.7em;
+}
+.bilet_div .right_ans, .bilet_div .false_ans, .bilet_div .no_ans{
+	float:left;
+	overflow:auto;
+}
+.no_ans{
+	color:#999999;
+}
+
+.tems_info{
+	font-size:0.7em;
+	padding:10px;
+	float:right;
+}
+.tems{
+	font-size:0.75em;
+	width:100%;
+	clear:both;
+}
+.tems a, .errors a{
+	display:block;
+	margin:8px;
+	padding:3px 6px;
+	box-shadow: 0 0 4px 0 #999;
+	overflow:auto;
+	border-radius:2px;
+}
+.tems a:hover, .errors > a:hover{
+	text-decoration:none;
+	background:#EEFAFF;
+}
+.tems_nums{
+	float:right;	
+}
+.tems_nums div{
+	font-size:0.8em;
+	width:1.5em;
+	float:left;
+	text-align:center;
+}
+.tems a div:first-child{
+	max-width:80%;
+	float:left;
+}
+.bilet_div .shkala{
+	width:90%;
+	margin: 5px 5%;
+}
+.tems .shkala{
+	width:100%;
+	margin: 5px 0;
+}
+.errors h3{
+	text-align:center;
+	color:#00569D;
+	margin:10px auto;
+}
+.errors{
+	font-size:0.8em;
+}
+.errors a{
+	padding:10px 5px;
+}
+.shkala{
+	float:left;
+  height:5px;
+  background:#ccc;
+  position:relative;
+}
+.shkala div{
+  height:100%;
+  float:left;
+}
+.shkala div:first-child{
+  background:Green;
+  position:relative;
+}
+.shkala div:last-child{
+  background-color:Red;
+}
+
+.shkala div:first-child:before, .shkala div:first-child:after{
+  content:'';
+  position:absolute;
+  display:block;
+  top:50%;
+  right:0;
+ }
+.shkala div:first-child:before{
+  width:8px;
+  background:#fff;
+  height:8px;
+  border:solid 1px #555;
+  border-radius:8px;
+  margin:-5px;
+}
+.shkala div:first-child:after{
+  width:6px;
+  height:6px;
+  border-radius:4px;
+  background:#00569D;
+  margin:-3px;
+}
+#buy_obuch{
+	margin:10px;
+}

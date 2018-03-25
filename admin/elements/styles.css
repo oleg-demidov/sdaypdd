@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.content{
+	margin:0 auto;
+	width:800px;
+}
+.menu_admin{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.menu_admin a {
+	display:block;
+	font-weight:bolder;
+	padding:10px;
+}
+.menu_admin a:hover{
+	color:#1521FF;
+	background-color:#E2E2E2;
+}
+h3{
+	margin:10px 30%;
+}
+.navig{
+	margin:0 auto;
+	width:500px;
+}
+.navig a{
+	margin:1px;
+	background-color:#CCD9FF;
+	border:1px solid #999999;
+	padding:8px;
+	display:block;
+	float:left;
+}
+.navig a:hover{
+	background-color:#83A8FE;
+}

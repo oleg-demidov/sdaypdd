@@ -1,0 +1,15 @@
+"Sprite"
+{
+"$basetexture" sprites/csmoney/sprite_anim
+"$spriteorientation" "oriented"
+"$surfaceprop" "glass"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "10"
+}
+}
+} 

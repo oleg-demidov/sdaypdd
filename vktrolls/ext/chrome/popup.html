@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+    <script type="text/javascript" src="scr/jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <link href="scr/popup.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <table id="accaunt" cellpadding="4" style="display:none;">
+        <tr id="user"><td rowspan="2"><img id="avatar" src=""/></td>
+            <td id="username"></td>
+            <td><button id="openglist" type="button">Список</button></td></tr>
+        <tr><td id="scope"></td>
+            <td><button id="exitbut" type="button">Выйти</button></td></tr>
+    </table>
+    
+    <table width="400" id="options" cellpadding="2" cellspacing="2">
+        <tr><td colspan="2"><label><input id="mylist" type="checkbox">Мой список</label> </td><td>
+                <button id="uclear">Очистить</button></td></tr>
+        <tr><td colspan="2"><label><input id="glist" type="checkbox">Список сообщества</label> </td><td>
+                <button id="gclear">Обновить</button></td></tr>
+        <tr><td colspan="2"><label><input id="delet" type="checkbox">Скрывать отмеченные</label></td><td>
+                </td></tr>
+        <tr><td colspan="2"><label><input id="ava" type="checkbox">Закрашивать аватарки</label></td></tr>
+    </table>
+
+</body>
+</html>

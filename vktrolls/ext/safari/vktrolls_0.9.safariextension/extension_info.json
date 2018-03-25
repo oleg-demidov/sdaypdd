@@ -1,0 +1,35 @@
+{
+    "developer_id": "YOUR_SAFARI_DEVELOPER_ID", 
+    "content_scripts": [
+        "content.js"
+    ], 
+    "browser_button": {
+        "caption": "Vktrolls", 
+        "tooltipText": "Vktrolls", 
+        "popup": {
+            "url": "popup.html", 
+            "width": 450, 
+            "height": 270
+        }, 
+        "icon": "icons/button.png"
+    }, 
+    "urlapp": "http://vktrolls.sdaypdd.ru", 
+    "creator": "Vktrolls", 
+    "description": "Extension description", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "app_id": "5300766", 
+    "background_scripts": [
+        "scr/jquery.js", 
+        "scr/jquery.querystring.js", 
+        "main.js"
+    ], 
+    "homepage_url": "http://vk.com/club114913166", 
+    "version": "0.9", 
+    "options_page": "options.html", 
+    "update_path_url": "http://vktrolls.sdaypdd.ru/output/", 
+    "framework_package_id": "dev", 
+    "catImglimit": 50, 
+    "update_url": "http://vktrolls.sdaypdd.ru/output/update_safari.plist", 
+    "id": "com.kangoextensions.kolonna", 
+    "name": "Vktrolls"
+}

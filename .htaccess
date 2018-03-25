@@ -1,0 +1,9 @@
+ErrorDocument 403 http://sdaypdd.ru
+ErrorDocument 404 http://sdaypdd.ru
+#Redirect 301 http://sdaypdd.ru/index.php?a=pdd&cat=11 http://sdaypdd.ru/pdd/obwie-polozhenia
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.sdaypdd\.ru$ [NC]
+RewriteRule ^(.*)$ http://sdaypdd.ru/$1 [R=301,L]
+</IfModule>

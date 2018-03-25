@@ -1,0 +1,1 @@
+<div class="notif"><? echo content('warning').'! : '.$notif;?></div>

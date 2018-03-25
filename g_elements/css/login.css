@@ -1,0 +1,98 @@
+/* CSS Document */
+
+a.social_btn{
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	width:70px;
+	height:70px;
+	display:block;
+}
+a.social_btn:hover{
+}
+a.social_btn:active{
+	-webkit-box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:    inset 1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	box-shadow:         inset 1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	border-color:#2796FA;
+}
+.form_enter a, .form_enter{
+	font-size:0.8em;
+}
+.form_enter h3{
+	color:#336699;
+	text-align:center;
+}
+#ok_btnl{
+	background-image:url(../../images/od.png);
+}
+#mm_btnl{
+	background-image:url(../../images/mm.png);
+}
+#vk_btnl{
+	background-image:url(../../images/vk.png);
+}
+#ya_btnl{
+	background-image:url(../../images/ya.png);
+}
+.form_enter .button{
+	font-size:1em;
+}
+.panel_class{
+	margin:0 auto;
+	position:relative;
+	font-size:0.8em;
+	overflow:hidden;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow:  1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:     1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	box-shadow:          1px 1px 5px 0px rgba(0, 0, 0, 0.8);
+}
+.prava{
+	width:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	margin-bottom:-7px;
+}
+.pavatar{
+	top: 25%;
+    left: 4%;
+    bottom: 20%;
+    right: 67%;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	overflow:hidden;
+}
+.pavatar img{
+	height:100%;
+	text-align:center;
+	margin-left:-10%;	
+}
+.pname{
+	top: 23%;
+    left: 40%;
+}
+.pemail{
+	top: 33.4%;
+    left: 40%;
+}
+.pdonate{
+    top: 44.4%;
+    left: 40%;
+}
+.prace{
+    top: 55%;
+    left: 40%;
+}
+.plogout{
+	bottom: 5%;
+    right: 2%;
+}
+.pavatar, .pname, .pemail, .pdonate, .plogout, .prace{
+	position:absolute;
+	z-index:10;
+}
+.tbl_social{
+	padding:0 1em;
+}

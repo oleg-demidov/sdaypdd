@@ -1,0 +1,4 @@
+<Files ~ "(bd\.inc|bd\_config|autorization)\.php$">
+    Order Deny,Allow
+    Deny from all
+</Files>

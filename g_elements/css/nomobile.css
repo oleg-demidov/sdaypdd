@@ -1,0 +1,27 @@
+/* CSS Document */
+.urls li{
+	float:left;
+	border-right:solid 1px #2DA0FF;
+}
+.urls li:after{
+	top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+}
+.breadcrumbs a{
+	color:#555;
+}
+.breadcrumbs a:before {
+	content: ' ';
+	position: absolute;
+	background-image:url(../../images/arrow.png);
+	background-repeat:no-repeat;
+	width: 1em;
+    height: 1em;
+	top:0.6em;
+	right: 0.2em;
+}
+.form_enter table table{
+	float:left;
+}

@@ -1,0 +1,11 @@
+php -q %~dp0\Example1.php
+php -q %~dp0\Example2.php
+php -q %~dp0\Example3.php
+php -q %~dp0\Example4.php
+php -q %~dp0\Example5.php
+php -q %~dp0\Example6.php
+php -q %~dp0\Example7.php
+php -q %~dp0\Example8.php
+php -q %~dp0\Example9.php
+php -q %~dp0\Naked.php
+php -q %~dp0\SmallGraph.php

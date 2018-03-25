@@ -1,0 +1,1 @@
+<div class="suc"><? echo $suc;?></div>

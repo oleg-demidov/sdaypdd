@@ -1,0 +1,184 @@
+/* CSS Document */
+
+.radius{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.racer, .racer50{
+	position:relative;
+	float:left;
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.61);
+	background-color:#fff;
+	overflow:none;
+	margin:5px;
+	padding:5px;
+        text-align: center;
+        font-size: 0.9em;
+}
+.racer50{
+    margin: 0.27em;
+    padding: 0.1em;
+    font-size: 0.6em;
+    overflow: hidden;
+    width: 21.4%;
+}
+.racer50 img{
+    width: 100%;
+}
+.ava_racer{
+    text-align: center;
+}
+.name_racer{
+    font-size: 0.7em;
+}
+#cars, #but{
+    display: none;
+    clear:left;
+}
+#cars div{
+    margin: 5px;
+    float: left;
+    
+    background-repeat: no-repeat;
+}
+.car100{
+    width:100px;
+    height:185px;
+    cursor: pointer;
+}
+#car101{
+    background-image: url(../race/images/cars/car101.png);
+}
+#car102{
+    background-image: url(../race/images/cars/car102.png);
+}
+#car103{
+    background-image: url(../race/images/cars/car103.png);
+}
+#car104{
+    background-image: url(../race/images/cars/car104.png);
+}
+.start_div{
+    max-width: 260px;
+    font-size: 0.8em;
+    padding: 10px;
+    text-align: center;
+}
+#track{
+    clear: both;
+    width:100%;
+    height: 600px;
+    background: #666;
+    position: relative;
+    overflow: hidden;
+}
+#track>div{
+    float: left;
+    width: 3.219em;
+    height: 100%;    
+}
+
+#track>div .car{
+    line-height:50%;
+    text-align:center;
+    margin-left: 1px;
+    width: 100%;
+    position: relative;
+    z-index: 200;
+}
+.place{
+    position: absolute;
+    top: 47%;
+    left: 44%;
+    z-index: 100;
+}
+#track div .car img{
+    width: 96%;
+}
+#road1{
+    margin-left: 0.2em;
+    border-left: solid 0.2em #fff;
+}
+#road2{
+    border-left: dashed 0.2em #FFFF00;
+}
+#road3{
+    border-left: dashed 0.2em #FFFF00;
+}
+#road4{
+    border-left: dashed 0.2em #FFFF00;
+    border-right: solid 0.2em #fff;
+}
+#ptrack{
+    position: relative;
+}
+#racers_track{
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    padding-left: 0.3em;
+    width: 98%;
+}
+#track:after{
+    content: '';
+    background-color: transparent;
+    background-image: linear-gradient( 45deg,white 25%, transparent 25%, transparent 74%, white 75%, white), 
+        linear-gradient( 45deg,white 25%, transparent 25%, transparent 74%, white 75%, white);
+    background-size:20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: auto;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+}
+#kubki{
+    background-image: url(../race/images/kubki.png);
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+#kubki .racer{
+    position: absolute;
+}
+#kubki .ava_racer{
+    position: relative;
+}
+#kubki .ava_racer .medal{
+    position: absolute;
+    top:0;
+    left:4px;
+    width: 20px;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+#place1{
+    top:0;
+    left: 50%;
+    margin-left: -55px;
+}
+#place1 .medal{
+    background-image: url(../race/images/medal1.png);
+}
+#place2{
+    top:30px;
+    right: 50%;
+    margin-right: 90px;
+}
+#place2 .medal{
+    background-image: url(../race/images/medal2.png);
+}
+#place3{
+    top:30px;
+    left: 50%;
+    margin-left: 90px;
+}
+#place3 .medal{
+    background-image: url(../race/images/medal3.png);
+}

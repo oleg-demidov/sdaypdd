@@ -1,0 +1,16 @@
+<?
+	if(isset($_GET['ok'])){
+		$resd=$bd->delete_str('companies',array("id"=>$_GET['id']));
+		unlink('../sprites/'.$_GET['id'].'.spr');
+		unlink('../sprites/'.$_GET['id'].'.vtf');
+		unlink('../sprites/gifs/'.$_GET['id'].'.gif');
+		if($resd){
+			$suc=content('adv_removed',$content_adv);
+			include('../elements/suc.php');
+		}
+		include('../advertiser/company.php');
+	}else{
+		$data=$bd->select('*','companies',array("id"=>$_GET['id']));
+		include('../elements/del_company.php');
+	}
+?>
